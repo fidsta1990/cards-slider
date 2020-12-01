@@ -32,7 +32,11 @@ body {
   flex: 0.5;
   margin: 0.8rem;
   position: relative;
-  transition: all 0.7s ease-in;
+  transition: all 0.5s ease-in;
+}
+
+.panel:hover {
+  box-shadow: 3px 5px 8px rgba(24, 153, 170, 0.808);
 }
 
 .panel h3 {
@@ -47,7 +51,8 @@ body {
   transition: opacity 0.7s ease-in;
 }
 .panel h3 span {
-  color: coral;
+  color: rgb(241, 112, 65);
+  display: block;
 }
 
 .panel.active {
@@ -56,6 +61,7 @@ body {
 }
 .panel.active h3 {
   opacity: 1;
+  transition: opacity 0.3s ease-in 0.4s;
 }
 
 .card-one {
@@ -69,7 +75,11 @@ body {
     url("./images/link-hoang-UoqAR2pOxMo-unsplash.jpg");
 }
 .card-three {
-  background-image: url("./images/marvin-meyer-2SDjvx5jEZQ-unsplash.jpg");
+  background-image: linear-gradient(
+      rgba(39, 39, 39, 0.315),
+      rgba(39, 39, 39, 0.466)
+    ),
+    url("./images/marvin-meyer-2SDjvx5jEZQ-unsplash.jpg");
 }
 .card-four {
   background-image: linear-gradient(
