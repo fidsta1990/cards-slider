@@ -25,6 +25,7 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   height: 90vh;
+
   border-radius: 50px;
   cursor: pointer;
   color: aliceblue;
@@ -89,10 +90,14 @@ body {
     url("./images/mevlut-sahin-FevvUdyk-oE-unsplash.jpg");
 }
 .card-five {
-  background-image: url("./images/ugur-peker-AkX0_cZQ6PI-unsplash.jpg");
+  background-image: linear-gradient(
+      rgba(39, 39, 39, 0.315),
+      rgba(39, 39, 39, 0.199)
+    ),
+    url("./images/pexels-freestocksorg-190407.jpg");
 }
 
-@media (max-width: 480px) {
+@media (max-width: 520px) {
   .container {
     width: 100vw;
   }
