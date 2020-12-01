@@ -37,6 +37,7 @@ body {
 
 .panel h3 {
   font-size: 1.5rem;
+  text-transform: capitalize;
   font-weight: 300;
   line-height: 1.5;
   position: absolute;
@@ -61,13 +62,21 @@ body {
   background-image: url("./images/krists-luhaers-DSB1MZWsGco-unsplash.jpg");
 }
 .card-two {
-  background-image: url("./images/link-hoang-UoqAR2pOxMo-unsplash.jpg");
+  background-image: linear-gradient(
+      rgba(39, 39, 39, 0.315),
+      rgba(39, 39, 39, 0.199)
+    ),
+    url("./images/link-hoang-UoqAR2pOxMo-unsplash.jpg");
 }
 .card-three {
   background-image: url("./images/marvin-meyer-2SDjvx5jEZQ-unsplash.jpg");
 }
 .card-four {
-  background-image: url("./images/mevlut-sahin-FevvUdyk-oE-unsplash.jpg");
+  background-image: linear-gradient(
+      rgba(39, 39, 39, 0.315),
+      rgba(39, 39, 39, 0.199)
+    ),
+    url("./images/mevlut-sahin-FevvUdyk-oE-unsplash.jpg");
 }
 .card-five {
   background-image: url("./images/ugur-peker-AkX0_cZQ6PI-unsplash.jpg");
